@@ -1,8 +1,15 @@
 version: "1"
+
+networks:
+  net:
+    driver: bridge
+
 services:
-  server:
-    container_name: server
+  backend:
+    container_name: backend
     build:
       dockerfile: Dockerfile
     ports:
       - 3333:3000
+    networks:
+      - net
