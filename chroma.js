@@ -1,5 +1,7 @@
 const {ChromaClient} = require('chromadb');
 
-const client = new ChromaClient();
+const url = "http://server:8000"
+
+const client = new ChromaClient(url);
 
 module.exports = client
