@@ -1,6 +1,6 @@
 const {ChromaClient} = require('chromadb');
 
-const url = "http://server:8000"
+const url = process.env.CHROMA_URL;
 
 const client = new ChromaClient(url);
 

@@ -10,6 +10,9 @@ dependencies:
   debug:
     specifier: ~2.6.9
     version: 2.6.9
+  dotenv:
+    specifier: ^16.0.3
+    version: 16.0.3
   express:
     specifier: ~4.16.1
     version: 4.16.1
@@ -245,6 +248,11 @@ packages:
 
   /destroy@1.0.4:
     resolution: {integrity: sha512-3NdhDuEXnfun/z7x9GOElY49LoqVHoGScmOKwmxhsS8N5Y+Z8KyPPDnaSzqWgYt/ji4mqwfTS34Htrk0zPIXVg==}
+    dev: false
+
+  /dotenv@16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
     dev: false
 
   /ee-first@1.1.1:
